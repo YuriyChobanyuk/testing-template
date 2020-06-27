@@ -1,0 +1,14 @@
+@import './vars';
+@import './reset';
+
+html {
+  font-family: Lato, 'sans-serif';
+}
+
+.hello {
+  color: red;
+}
+
+.container {
+  color: $text-color;
+}
