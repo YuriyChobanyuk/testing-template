@@ -1,4 +1,4 @@
-import { Set } from 'immutable';
+import { List } from 'immutable';
 import { add, addTwo, sumMap } from './shell';
 
 describe('shell tests', () => {
@@ -11,7 +11,7 @@ describe('shell tests', () => {
   });
 
   it('Should sum map of numbers', () => {
-    const sequence = Set<number>([3, 5, 56]);
+    const sequence = List<number>([3, 5, 56]);
     expect(sumMap(sequence)).toBe(64);
   });
 });
